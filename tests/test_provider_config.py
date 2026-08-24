@@ -18,7 +18,7 @@ def test_provider_profile_persistence_can_override_builtin(monkeypatch):
 		json.dumps(
 			{
 				'anyrouter': {'domain': 'https://anyrouter.top', 'persist_profile': False},
-				'agentrouter': {'domain': 'https://agentrouter.org', 'persist_profile': True},
+				'agentrouter': {'domain': 'https://ps.air-outer.com', 'persist_profile': True},
 			}
 		),
 	)
